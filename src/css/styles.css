@@ -1,3 +1,6 @@
 body{
-    background-color: aquamarine;
+    font-family: 'ssf4', Courier, monospace;
+    background: var(--cor-secundaria);
+
 }
+
