@@ -72,3 +72,7 @@ main{
     width: 100%;
     font-size: 27px;
 }
+
+.selecao-de-personagens .personagem-grande.personagem-jogador-1 .nome::before{
+    background-color: var(--cor-azul-principal);
+}
