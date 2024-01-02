@@ -24,7 +24,7 @@ main{
 .cabecalho{
     z-index: 1;
     display: flex;
-    justify-content: center;l
+    justify-content: center;
 }
 
 .cabecalho .titulo{
