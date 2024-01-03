@@ -126,7 +126,7 @@ main{
     animation-direction: alternate;
 }
 
-.selecao-de-personagens .lista-de-personagens .personagem:hover{
+.selecao-de-personagens .lista-de-personagens .personagem.jogador-2-selecionado:hover{
     animation: c-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;
 }
