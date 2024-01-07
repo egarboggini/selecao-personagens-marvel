@@ -11,7 +11,7 @@ body::before{
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0,2;
+    opacity: 0.2;
 }
 
 main{
@@ -77,7 +77,7 @@ main{
     background-color: var(--cor-azul-principal);
 }
 
-.selecao-de-personagens .personagem-grande.personagem-grande.personagem-jogador-2 .nome::before{
+.selecao-de-personagens .personagem-grande.personagem-jogador-2 .nome::before{
     background-color: var(--cor-vermelha-principal);
 }
 
@@ -92,7 +92,7 @@ main{
 .selecao-de-personagens .lista-de-personagens .personagem{
     border: 2px solid var(--cor-padrao);
     background-color: var(--cor-padrao);
-    width: 30px;
+    width: 30%;
     height: 160px;
     cursor: pointer;
     z-index: 2;
@@ -126,7 +126,7 @@ main{
     animation-direction: alternate;
 }
 
-.selecao-de-personagens .lista-de-personagens .personagem:hover{
+.selecao-de-personagens .lista-de-personagens .personagem.jogador-2-selecionado:hover{
     animation: c-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;
 }
@@ -154,31 +154,3 @@ main{
     animation: text-glowing-red .3s ease-in-out infinite;
     animation-direction: alternate;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
